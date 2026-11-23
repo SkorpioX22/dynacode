@@ -73,14 +73,7 @@ Delete the `animation-pack` folder from `~/.config/opencode/plugins/`.
 | `index.ts` | Server part of the plugin (identity only, no behavior) |
 | `tui.tsx` | All animations: text effects, slots, event wiring, `/anim` command |
 | `install.ps1` | Copies the plugin into the global OpenCode plugins directory |
-| `tools/make_gifs.py` | Regenerates the GIFs above with the same math `tui.tsx` runs |
-| `docs/*.gif` | README previews |
-
-Regenerate previews with:
-
-```sh
-python tools/make_gifs.py
-```
+| `docs/*.gif` | README previews and the LinkedIn showcase GIF |
 
 ## Notes
 
